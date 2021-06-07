@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main-container-0{
+    display: flex;
+    margin: top;
+    padding: 10px;
+    font-size: 50px;
+}
+.main-container-1 ul{
+    display: flex;
+    margin: 10px 13px;
+}
+.main-container-1 ul li{
+    list-style: none;
+    padding: 30px;
+}
+.main-container-1 ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+.main-container-1 ul li a:hover{
+    border-bottom: 2px solid black;
+}
+.main-container-2{
+    padding: 10px 20px 15px 0px;
+}
+input{
+    border: 2px solid lightsalmon;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    padding: 3px;
+}
+button{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    color: darkred;
+}
+button:hover{
+    background-color: rgb(129, 129, 167, 0.644):
+    color: white
+}
+#class{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.project{
+    display: flex;
+    padding: 10px; 
+    font-size: 30px;  
+    text-align: center;
+    margin: top;
+}
+/*
+.self{
+    text-align: center;
+    padding: 5px;
+}*/
+.self ul{
+    display: flex;
+    margin: 10px 13px;
+}
+.self ul li{
+    list-style: none;
+    padding-right: 10px;   
+}
+.self ul li a{
+    text-decoration: none;
+    color: darkblue;   
+}
+.self ul li a:hover{
+    border-bottom: 2px solid black;
+}
+input{
+    border: 2px solid lightcyan;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    padding: 3px;
+}
+.cat{
+    border-radius: 50px;
+}
+.data{
+    height: 375px;
+    max-width: 450px;
+    border: 5px solid navy;
+    background-image: url("../../Pictures/jet.png");
+    border-radius: 10px;
+    color: yellow;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 120px 50px;
+} 
